@@ -18,6 +18,7 @@
 
 body {
   font-family: Roboto, sans-serif;
+  color: var(--dark-gray);
 }
 
 .section {
@@ -232,7 +233,6 @@ img {
 
 .what-we-do-section {
   margin-top: -94px;
-  background: var(--white);
 }
 
 .what-we-do-list {
@@ -336,7 +336,6 @@ img {
 
 .portfolio-main {
   padding: 94px 200px;
-  background-color: var(--white);
 }
 
 .portfolio-net-list {
