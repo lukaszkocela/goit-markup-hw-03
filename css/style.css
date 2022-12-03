@@ -18,12 +18,10 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: var(--dark-gray);
-  background-color: var(--white);
 }
 
 .section {
-  padding: 94px 200px;
+  padding: 94px 0;
 }
 
 .container {
@@ -53,20 +51,17 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  gap: 93px;
 }
 
 .header-container-2 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 50px;
 }
 
 .nav-list {
   display: flex;
-  gap: 50px;
-  margin: 32px 0 32px 50px;
+  gap: 46px;
 }
 
 .top-navigation-item {
@@ -237,6 +232,7 @@ img {
 
 .what-we-do-section {
   margin-top: -94px;
+  background: var(--white);
 }
 
 .what-we-do-list {
@@ -340,6 +336,7 @@ img {
 
 .portfolio-main {
   padding: 94px 200px;
+  background-color: var(--white);
 }
 
 .portfolio-net-list {
@@ -356,5 +353,4 @@ img {
   padding: 20px 24px;
   border: 1px solid var(--white-portfolio);
   border-top: none;
-  background-color: var(--white);
 }
