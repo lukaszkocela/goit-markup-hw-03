@@ -19,7 +19,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--dark-gray);
-  background-color: var(--light-gray);
+  background-color: var(--white);
 }
 
 .section {
@@ -37,6 +37,10 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+img {
+  vertical-align: middle;
 }
 
 .header-container-0 {
@@ -66,7 +70,6 @@ body {
 }
 
 .top-navigation-item {
-  background-color: var(--white);
   border: 1px solid var(--shadow-light);
   padding: 0 200px;
 }
@@ -74,7 +77,7 @@ body {
 .nav-links-item-1 {
   text-decoration: none;
   color: var(--dark-gray);
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
 }
@@ -86,7 +89,7 @@ body {
 
 .nav-links-item-2 {
   color: var(--silver);
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
@@ -125,7 +128,7 @@ body {
 .nav-links-item-3 {
   text-decoration: none;
   color: var(--almost-white);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
@@ -138,7 +141,7 @@ body {
 
 .nav-links-item-4 {
   color: var(--almost-white);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
@@ -149,48 +152,27 @@ body {
   color: var(--blue);
 }
 
-.logo-item-1 {
+.logo-item {
   font-family: Raleway, sans-serif;
   color: var(--blue);
   text-decoration: none;
   font-size: 26px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   line-height: 1.17;
-  margin: 24px 0;
 }
 
-.logo-item-2 {
-  font-family: Raleway, sans-serif;
+.studio-black {
   color: var(--black);
-  text-decoration: none;
-  font-size: 26px;
-  letter-spacing: 3%;
-  line-height: 1.17;
-  margin: 24px 0;
 }
 
-.logo-item-3 {
-  font-family: Raleway, sans-serif;
-  color: var(--blue);
-  text-decoration: none;
-  font-size: 26px;
-  letter-spacing: 3%;
-  line-height: 1.17;
-}
-
-.logo-item-4 {
-  font-family: Raleway, sans-serif;
+.studio-white {
   color: var(--white);
-  text-decoration: none;
-  font-size: 26px;
-  letter-spacing: 3%;
-  line-height: 1.17;
 }
 
 .contact-details {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--white);
   font-style: normal;
 }
@@ -205,7 +187,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   margin: 106px 237px 30px;
 }
 
@@ -231,14 +213,14 @@ body {
   padding: 10px 10px 0 0;
   color: var(--silver);
   font-size: 14px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   line-height: 1.71;
 }
 
 .main-page-text-description-list h3 {
   color: var(--dark-gray);
   font-size: 14px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-weight: 700;
 }
 
@@ -246,7 +228,7 @@ body {
   color: var(--dark-gray);
   font-size: 36px;
   text-align: center;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   display: flex;
   list-style: none;
   margin-bottom: 50px;
@@ -268,7 +250,7 @@ body {
 .our-team-head {
   color: var(--dark-gray);
   font-size: 36px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   margin-left: 480px;
   margin-bottom: 50px;
 }
@@ -283,7 +265,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .member-job {
@@ -291,7 +273,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .main-figure {
@@ -344,7 +326,7 @@ body {
   color: var(--dark-gray);
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   font-weight: 700;
 }
 
@@ -352,7 +334,7 @@ body {
   color: var(--silver);
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-weight: 400;
 }
 
