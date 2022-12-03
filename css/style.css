@@ -67,7 +67,7 @@ img {
 
 .top-navigation-item {
   border: 1px solid var(--shadow-light);
-  padding: 0 200px;
+  padding: 24px 0 25px;
 }
 
 .nav-links-item-1 {
